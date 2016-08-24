@@ -57,7 +57,7 @@ namespace objectos
         public string Imprimir()
         {
 
-            return "Nombre: " + Nombre + "Grado:" + Grado + "Nota: " + Nota; 
+            return "Nombre:   " + Nombre + "Grado:" + Grado + "Nota: " + Nota; 
 
         }
 

@@ -12,7 +12,9 @@ namespace objectos
         {
 
             Estudiante estudiante = new Estudiante("Juan",4 ,84.4M);
-            Console.WriteLine(estudiante.Nota);
+           
+            Console.WriteLine(estudiante.Imprimir());    
+            Console.ReadKey();
             
         }
     }
