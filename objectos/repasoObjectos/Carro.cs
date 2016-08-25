@@ -9,26 +9,44 @@ namespace repasoObjectos
     class Carro
     {
 
-        public string color;
-        public int kilometraje;
-        public string modelo;
-        public int ano;
-        public string marca;       
+        private string color;
+        private int kilometraje;
+        private string modelo;
+        private int ano;
+        private string marca;       
 
-
-        public string obtenerColor()
+        
+        public Carro(string pModelo, int pAnno, string pMarca)
         {
-
-            return "rojo";
+            this.modelo = pModelo;
+            this.ano = pAnno;
+            this.marca = pMarca;
 
         }
-             
-        public string obtenerMarca()
+
+
+        public string Color
         {
-
-            return marca;
-
+            get { return color; }
+            set { color = value; }
         }
+
+
+        public string Marca
+        {
+            get { return marca; }
+            set { marca = value; }
+        }
+
+
+        public string Modelo
+        {
+            get { return modelo; }
+            set { modelo = value; }
+        }
+
+
+
 
     }
 }

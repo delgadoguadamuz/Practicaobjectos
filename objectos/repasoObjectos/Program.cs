@@ -11,8 +11,9 @@ namespace repasoObjectos
         static void Main(string[] args)
         {
 
-            Carro carro = new Carro();
-            Console.WriteLine(carro.obtenerColor());
+            Carro carro = new Carro("Montero",2002,"Toyota");
+            Console.WriteLine(carro.Marca);
+
             Console.ReadKey();  
 
         }
