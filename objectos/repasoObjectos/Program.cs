@@ -11,6 +11,9 @@ namespace repasoObjectos
         static void Main(string[] args)
         {
 
+            Carro carro = new Carro();
+            Console.WriteLine(carro.obtenerColor());
+            Console.ReadKey();  
 
         }
     }
