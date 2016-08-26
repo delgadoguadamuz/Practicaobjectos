@@ -13,7 +13,8 @@ namespace repasoObjectos
 
             Carro carro = new Carro("Montero",2002,"Toyota");
             Console.WriteLine(carro.Marca);
-
+            carro.Tanque = 20;
+            Console.WriteLine(carro.tengoGasolina());
             Console.ReadKey();  
 
         }
